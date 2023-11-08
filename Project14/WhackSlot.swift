@@ -17,7 +17,7 @@ final class WhackSlot: SKNode {
         
         addChild(SKSpriteNode(imageNamed: "whackHole"))
         
-        charNode = SKSpriteNode(fileNamed: "penguinGood")
+        charNode = SKSpriteNode(imageNamed: "penguinGood")
         charNode.position = CGPoint(x: 0, y: -90)
         charNode.name = "character"
         
