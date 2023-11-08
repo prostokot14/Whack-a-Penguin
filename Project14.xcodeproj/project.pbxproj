@@ -16,6 +16,7 @@
 		CB25F5D52AFC0D9800CE6D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5D32AFC0D9800CE6D24 /* LaunchScreen.storyboard */; };
 		CB25F5DD2AFC0F5200CE6D24 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5DB2AFC0F5200CE6D24 /* whack.caf */; };
 		CB25F5DE2AFC0F5200CE6D24 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */; };
+		CB25F5E02AFC14F000CE6D24 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CB25F5D42AFC0D9800CE6D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB25F5DB2AFC0F5200CE6D24 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 		CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
+		CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CB25F5C62AFC0D8E00CE6D24 /* GameScene.sks */,
 				CB25F5CA2AFC0D8E00CE6D24 /* GameScene.swift */,
 				CB25F5CC2AFC0D8E00CE6D24 /* GameViewController.swift */,
+				CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */,
 				CB25F5CE2AFC0D8E00CE6D24 /* Main.storyboard */,
 				CB25F5D12AFC0D9800CE6D24 /* Assets.xcassets */,
 				CB25F5D32AFC0D9800CE6D24 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB25F5E02AFC14F000CE6D24 /* WhackSlot.swift in Sources */,
 				CB25F5CB2AFC0D8E00CE6D24 /* GameScene.swift in Sources */,
 				CB25F5CD2AFC0D8E00CE6D24 /* GameViewController.swift in Sources */,
 				CB25F5C52AFC0D8E00CE6D24 /* AppDelegate.swift in Sources */,
