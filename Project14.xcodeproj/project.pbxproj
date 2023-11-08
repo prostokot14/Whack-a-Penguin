@@ -14,6 +14,8 @@
 		CB25F5D02AFC0D8E00CE6D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5CE2AFC0D8E00CE6D24 /* Main.storyboard */; };
 		CB25F5D22AFC0D9800CE6D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5D12AFC0D9800CE6D24 /* Assets.xcassets */; };
 		CB25F5D52AFC0D9800CE6D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5D32AFC0D9800CE6D24 /* LaunchScreen.storyboard */; };
+		CB25F5DD2AFC0F5200CE6D24 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5DB2AFC0F5200CE6D24 /* whack.caf */; };
+		CB25F5DE2AFC0F5200CE6D24 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CB25F5CF2AFC0D8E00CE6D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB25F5D12AFC0D9800CE6D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB25F5D42AFC0D9800CE6D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB25F5DB2AFC0F5200CE6D24 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 			isa = PBXGroup;
 			children = (
 				CB25F5C32AFC0D8E00CE6D24 /* Project14 */,
+				CB25F5DB2AFC0F5200CE6D24 /* whack.caf */,
+				CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */,
 				CB25F5C22AFC0D8E00CE6D24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,9 +133,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB25F5D02AFC0D8E00CE6D24 /* Main.storyboard in Resources */,
+				CB25F5DD2AFC0F5200CE6D24 /* whack.caf in Resources */,
 				CB25F5C72AFC0D8E00CE6D24 /* GameScene.sks in Resources */,
 				CB25F5D22AFC0D9800CE6D24 /* Assets.xcassets in Resources */,
 				CB25F5D52AFC0D9800CE6D24 /* LaunchScreen.storyboard in Resources */,
+				CB25F5DE2AFC0F5200CE6D24 /* whackBad.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
