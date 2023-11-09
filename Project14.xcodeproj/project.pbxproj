@@ -18,6 +18,8 @@
 		CB25F5DE2AFC0F5200CE6D24 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */; };
 		CB25F5E02AFC14F000CE6D24 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */; };
 		CB85B3A62AFD486D0065DCA2 /* Game over.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB85B3A52AFD486C0065DCA2 /* Game over.caf */; };
+		CB85B3AC2AFD4E780065DCA2 /* MudEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB85B3AB2AFD4E780065DCA2 /* MudEmitter.sks */; };
+		CB85B3AE2AFD4E8A0065DCA2 /* SmokeEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB85B3AD2AFD4E8A0065DCA2 /* SmokeEmitter.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 		CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 		CB85B3A52AFD486C0065DCA2 /* Game over.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Game over.caf"; sourceTree = "<group>"; };
+		CB85B3AB2AFD4E780065DCA2 /* MudEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MudEmitter.sks; sourceTree = "<group>"; };
+		CB85B3AD2AFD4E8A0065DCA2 /* SmokeEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeEmitter.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */,
 				CB25F5CE2AFC0D8E00CE6D24 /* Main.storyboard */,
 				CB25F5D12AFC0D9800CE6D24 /* Assets.xcassets */,
+				CB85B3AB2AFD4E780065DCA2 /* MudEmitter.sks */,
+				CB85B3AD2AFD4E8A0065DCA2 /* SmokeEmitter.sks */,
 				CB25F5D32AFC0D9800CE6D24 /* LaunchScreen.storyboard */,
 			);
 			path = Project14;
@@ -140,9 +146,11 @@
 			files = (
 				CB25F5D02AFC0D8E00CE6D24 /* Main.storyboard in Resources */,
 				CB25F5DD2AFC0F5200CE6D24 /* whack.caf in Resources */,
+				CB85B3AE2AFD4E8A0065DCA2 /* SmokeEmitter.sks in Resources */,
 				CB85B3A62AFD486D0065DCA2 /* Game over.caf in Resources */,
 				CB25F5C72AFC0D8E00CE6D24 /* GameScene.sks in Resources */,
 				CB25F5D22AFC0D9800CE6D24 /* Assets.xcassets in Resources */,
+				CB85B3AC2AFD4E780065DCA2 /* MudEmitter.sks in Resources */,
 				CB25F5D52AFC0D9800CE6D24 /* LaunchScreen.storyboard in Resources */,
 				CB25F5DE2AFC0F5200CE6D24 /* whackBad.caf in Resources */,
 			);
