@@ -8,9 +8,9 @@
 import SpriteKit
 
 final class WhackSlot: SKNode {
-    private var charNode: SKSpriteNode!
-    private var isVisible = false
-    private var isHit = false
+    var charNode: SKSpriteNode!
+    var isVisible = false
+    var isHit = false
     
     func configure(at position: CGPoint) {
         self.position = position
@@ -32,6 +32,9 @@ final class WhackSlot: SKNode {
     
     func show(hideTime: Double) {
         if isVisible { return }
+        
+        charNode.xScale = 1
+        charNode.yScale = 1
         
         charNode.run(SKAction.moveBy(x: 0, y: 80, duration: 0.05))
         
@@ -57,5 +60,15 @@ final class WhackSlot: SKNode {
         
         charNode.run(SKAction.moveBy(x: 0, y: -80, duration: 0.05))
         isVisible = false
+    }
+    
+    func hit() {
+        isHit = true
+        
+        charNode.run(SKAction.sequence([
+            SKAction.wait(forDuration: 0.25),
+            SKAction.moveBy(x: 0, y: -80, duration: 0.5),
+            SKAction.run { [unowned self] in self.isVisible = false }
+        ]))
     }
 }
