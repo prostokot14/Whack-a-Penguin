@@ -39,6 +39,8 @@ final class GameScene: SKScene {
             gameOver.zPosition = 1
             addChild(gameOver)
             
+            run(SKAction.playSoundFileNamed("Game over.caf", waitForCompletion: false))
+            
             return
         }
         

@@ -17,6 +17,7 @@
 		CB25F5DD2AFC0F5200CE6D24 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5DB2AFC0F5200CE6D24 /* whack.caf */; };
 		CB25F5DE2AFC0F5200CE6D24 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */; };
 		CB25F5E02AFC14F000CE6D24 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */; };
+		CB85B3A62AFD486D0065DCA2 /* Game over.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB85B3A52AFD486C0065DCA2 /* Game over.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CB25F5DB2AFC0F5200CE6D24 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 		CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 		CB25F5DF2AFC14F000CE6D24 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		CB85B3A52AFD486C0065DCA2 /* Game over.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Game over.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 				CB25F5C32AFC0D8E00CE6D24 /* Project14 */,
 				CB25F5DB2AFC0F5200CE6D24 /* whack.caf */,
 				CB25F5DC2AFC0F5200CE6D24 /* whackBad.caf */,
+				CB85B3A52AFD486C0065DCA2 /* Game over.caf */,
 				CB25F5C22AFC0D8E00CE6D24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				CB25F5D02AFC0D8E00CE6D24 /* Main.storyboard in Resources */,
 				CB25F5DD2AFC0F5200CE6D24 /* whack.caf in Resources */,
+				CB85B3A62AFD486D0065DCA2 /* Game over.caf in Resources */,
 				CB25F5C72AFC0D8E00CE6D24 /* GameScene.sks in Resources */,
 				CB25F5D22AFC0D9800CE6D24 /* Assets.xcassets in Resources */,
 				CB25F5D52AFC0D9800CE6D24 /* LaunchScreen.storyboard in Resources */,
